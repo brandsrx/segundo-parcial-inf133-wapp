@@ -10,9 +10,9 @@
         </div>
     </div>
     <div class="field">
-        <label for="species">Apellidos:</label>
+        <label for="lastname">Apellidos:</label>
         <div class="control">
-            <input type="text" id="species" name="species" required class="input" value={{ patient.last_name }}>
+            <input type="text" id="species" name="lastname" required class="input" value={{ patient.lastname }}>
         </div>
     </div>
     <div class="field">
@@ -24,7 +24,7 @@
     <div class="field">
         <label for="birth_date">Fecha de Nacimiento:</label>
         <div class="control">
-            <input type="text" id="birth_date" name="birth_date" required class="input" value= {{ patient.birth_date }}>
+            <input type="text" id="birth_date" name="birth_date" required class="input" value= {{ patient.date }}>
         </div>
     </div>
     <input type="submit" value="Guardar Cambios" class="button is-primary">
